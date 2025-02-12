@@ -7,6 +7,7 @@
     --cor-hover: #272727;
     --fonte-primaria: 'Krona One', sans-serif ;
     --fonte-secundaria: 'Montserrat', sans-serif;
+    --cor-navegacao: rgb(255, 0, 255);
 }
 *{
     margin: 0;
@@ -93,6 +94,10 @@ body{
 .apresentacao__links__navegacao:hover{
     background-color: var(--cor-hover);
 }
+.cabecalho__menu__link:hover{
+    color: var(--cor-navegacao);
+}
+
 
 .apresentacao__imagem{
     width: 50%;
